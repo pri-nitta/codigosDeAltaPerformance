@@ -87,7 +87,7 @@ public class FilaProcessos {
 					if (resp == 2)
 						fila.ENQUEUE(resultado.item);
 					else
-						System.out.println("processo concluído \n" + resultado.item);
+						System.out.println("processo concluído: " + resultado.item);
 						
 					break;
 				}
