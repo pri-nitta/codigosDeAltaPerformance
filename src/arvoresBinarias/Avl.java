@@ -167,6 +167,16 @@ public class Avl {
 		}
 		return p;
 	}
+	
+	private static void mostra_pre_ordem(ARVORE p) {
+		if(p != null) {
+			System.out.println(" " + p.dado);
+			if(p.esq != null)
+				mostra_pre_ordem(p.esq);
+			if(p.dir != null)
+				mostra_pre_ordem(p.dir);
+		}
+	}
 
 	public static void main(String[] args) {
 		Scanner entra = new Scanner(System.in);
