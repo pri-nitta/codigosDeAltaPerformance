@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class InsertionSort {
 	public static int N = 10;
-// define o tamanho do vetor a ser ordenado
 
 	public static void main(String[] args) {
 
@@ -14,7 +13,6 @@ public class InsertionSort {
 
 		int i;
 
-		/* cria a estrutura de dados (vetor) com N elementos aleatórios */
 		int vetor[] = new int[N];
 		System.out.println("Criando vetor com " + N + " elementos:");
 		for (i = 0; i < N; i++)
