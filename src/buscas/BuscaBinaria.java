@@ -11,7 +11,6 @@ public class BuscaBinaria {
 		int N = 100;
 		int i;
 
-		/* cria a estrutura de dados (vetor) com N elementos */
 		int basededados[] = new int[N];
 		System.out.println("Criando vetor com 100 elementos: ");
 		for (i = 0; i < N; i++)
@@ -38,7 +37,6 @@ public class BuscaBinaria {
 		System.out.println("Digite chave procurada: ");
 		int chaveproc = entrada.nextInt();
 
-		/* Pesquisa na estrutura de dados o valor solicitado */
 		System.out.println("Procurando o chave solicitada...");
 		int i_baixo = 0;
 		int i_medio = 0;
